@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Service;
+namespace Pengxul\Payss\Service;
 
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Pengxul\Pays\Contract\EventDispatcherInterface;
-use Pengxul\Pays\Contract\ServiceProviderInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Pay;
+use Pengxul\Payss\Contract\EventDispatcherInterface;
+use Pengxul\Payss\Contract\ServiceProviderInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Pay;
 
 class EventServiceProvider implements ServiceProviderInterface
 {

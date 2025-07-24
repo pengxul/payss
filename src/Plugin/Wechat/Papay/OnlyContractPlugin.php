@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Papay;
+namespace Pengxul\Payss\Plugin\Wechat\Papay;
 
 use Closure;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Direction\NoHttpRequestDirection;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Direction\NoHttpRequestDirection;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_wechat_config;
-use function Pengxul\Pays\get_wechat_sign_v2;
+use function Pengxul\Payss\get_wechat_config;
+use function Pengxul\Payss\get_wechat_sign_v2;
 
 /**
  * 返回只签约（委托代扣）参数.

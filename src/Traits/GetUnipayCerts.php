@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Traits;
+namespace Pengxul\Payss\Traits;
 
-use Pengxul\Pays\Contract\ConfigInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
+use Pengxul\Payss\Contract\ConfigInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
 
 trait GetUnipayCerts
 {

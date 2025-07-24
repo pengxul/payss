@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\PayS;
+namespace Pengxul\Payss;
 
-use Pengxul\Pays\Contract\ConfigInterface;
-use Pengxul\Pays\Contract\LoggerInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Contract\ConfigInterface;
+use Pengxul\Payss\Contract\LoggerInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
 
 /**
  * @method static void emergency($message, array $context = [])

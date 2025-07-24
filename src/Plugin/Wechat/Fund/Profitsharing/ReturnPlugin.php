@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Fund\Profitsharing;
+namespace Pengxul\Payss\Plugin\Wechat\Fund\Profitsharing;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_wechat_config;
+use function Pengxul\Payss\get_wechat_config;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter8_1_3.shtml

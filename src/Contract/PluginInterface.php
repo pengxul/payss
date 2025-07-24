@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Contract;
+namespace Pengxul\Payss\Contract;
 
 use Closure;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Rocket;
 
 interface PluginInterface
 {

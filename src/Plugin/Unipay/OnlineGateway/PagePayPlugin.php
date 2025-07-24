@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay\OnlineGateway;
+namespace Pengxul\Payss\Plugin\Unipay\OnlineGateway;
 
-use Pengxul\Pays\Direction\ResponseDirection;
-use Pengxul\Pays\Plugin\Unipay\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Direction\ResponseDirection;
+use Pengxul\Payss\Plugin\Unipay\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
 /**
  * @see https://open.unionpay.com/tjweb/acproduct/APIList?acpAPIId=754&apiservId=448&version=V2.2&bussType=0

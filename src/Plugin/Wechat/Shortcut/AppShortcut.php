@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Shortcut;
+namespace Pengxul\Payss\Plugin\Wechat\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Plugin\Wechat\Pay\App\InvokePrepayPlugin;
-use Pengxul\Pays\Plugin\Wechat\Pay\App\PrepayPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Plugin\Wechat\Pay\App\InvokePrepayPlugin;
+use Pengxul\Payss\Plugin\Wechat\Pay\App\PrepayPlugin;
 
 class AppShortcut implements ShortcutInterface
 {

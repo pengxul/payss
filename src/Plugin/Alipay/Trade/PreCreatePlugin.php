@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay\Trade;
+namespace Pengxul\Payss\Plugin\Alipay\Trade;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Plugin\Alipay\GeneralPlugin;
-use Pengxul\Pays\Rocket;
-use Pengxul\Pays\Traits\SupportServiceProviderTrait;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Plugin\Alipay\GeneralPlugin;
+use Pengxul\Payss\Rocket;
+use Pengxul\Payss\Traits\SupportServiceProviderTrait;
 
 /**
  * @see https://opendocs.alipay.com/open/02ekfg?scene=common

@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Pay\Combine;
+namespace Pengxul\Payss\Plugin\Wechat\Pay\Combine;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Rocket;
 use Pengxul\Supports\Collection;
 
-use function Pengxul\Pays\get_wechat_config;
+use function Pengxul\Payss\get_wechat_config;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter5_1_12.shtml
  */
-class ClosePlugin extends \Pengxul\Pays\Plugin\Wechat\Pay\Common\ClosePlugin
+class ClosePlugin extends \Pengxul\Payss\Plugin\Wechat\Pay\Common\ClosePlugin
 {
     protected function getUri(Rocket $rocket): string
     {

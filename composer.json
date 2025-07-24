@@ -1,5 +1,5 @@
 {
-    "name": "pengxul/pays",
+    "name": "pengxul/payss",
     "description": "可能是我用过的最优雅的 Alipay 和 WeChat 的支付 SDK 扩展包了",
     "keywords": [
         "alipay",
@@ -48,7 +48,7 @@
     },
     "autoload": {
         "psr-4": {
-            "pengxul\\PayS\\": "src"
+            "pengxul\\Payss\\": "src"
         },
         "files": [
             "src/Functions.php"
@@ -56,7 +56,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "pengxul\\PayS\\Tests\\": "tests"
+            "pengxul\\Payss\\Tests\\": "tests"
         }
     },
     "suggest": {

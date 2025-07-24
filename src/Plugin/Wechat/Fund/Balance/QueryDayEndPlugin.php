@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Fund\Balance;
+namespace Pengxul\Payss\Plugin\Wechat\Fund\Balance;
 
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
 class QueryDayEndPlugin extends GeneralPlugin
 {

@@ -2,32 +2,32 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\PayS;
+namespace Pengxul\Payss;
 
 use Closure;
 use Illuminate\Container\Container as LaravelContainer;
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
 use Throwable;
-use Pengxul\Pays\Contract\DirectionInterface;
-use Pengxul\Pays\Contract\PackerInterface;
-use Pengxul\Pays\Contract\ServiceProviderInterface;
-use Pengxul\Pays\Direction\CollectionDirection;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ContainerNotFoundException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Packer\JsonPacker;
-use Pengxul\Pays\Provider\Alipay;
-use Pengxul\Pays\Provider\Unipay;
-use Pengxul\Pays\Provider\Wechat;
-use Pengxul\Pays\Service\AlipayServiceProvider;
-use Pengxul\Pays\Service\ConfigServiceProvider;
-use Pengxul\Pays\Service\ContainerServiceProvider;
-use Pengxul\Pays\Service\EventServiceProvider;
-use Pengxul\Pays\Service\HttpServiceProvider;
-use Pengxul\Pays\Service\LoggerServiceProvider;
-use Pengxul\Pays\Service\UnipayServiceProvider;
-use Pengxul\Pays\Service\WechatServiceProvider;
+use Pengxul\Payss\Contract\DirectionInterface;
+use Pengxul\Payss\Contract\PackerInterface;
+use Pengxul\Payss\Contract\ServiceProviderInterface;
+use Pengxul\Payss\Direction\CollectionDirection;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ContainerNotFoundException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Packer\JsonPacker;
+use Pengxul\Payss\Provider\Alipay;
+use Pengxul\Payss\Provider\Unipay;
+use Pengxul\Payss\Provider\Wechat;
+use Pengxul\Payss\Service\AlipayServiceProvider;
+use Pengxul\Payss\Service\ConfigServiceProvider;
+use Pengxul\Payss\Service\ContainerServiceProvider;
+use Pengxul\Payss\Service\EventServiceProvider;
+use Pengxul\Payss\Service\HttpServiceProvider;
+use Pengxul\Payss\Service\LoggerServiceProvider;
+use Pengxul\Payss\Service\UnipayServiceProvider;
+use Pengxul\Payss\Service\WechatServiceProvider;
 
 /**
  * @method static Alipay alipay(array $config = [], $container = null)

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Service;
+namespace Pengxul\Payss\Service;
 
-use Pengxul\Pays\Contract\ConfigInterface;
-use Pengxul\Pays\Contract\LoggerInterface;
-use Pengxul\Pays\Contract\ServiceProviderInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
+use Pengxul\Payss\Contract\ConfigInterface;
+use Pengxul\Payss\Contract\LoggerInterface;
+use Pengxul\Payss\Contract\ServiceProviderInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
 use Pengxul\Supports\Logger;
 
 class LoggerServiceProvider implements ServiceProviderInterface

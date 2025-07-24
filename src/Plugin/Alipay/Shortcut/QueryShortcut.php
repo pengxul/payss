@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay\Shortcut;
+namespace Pengxul\Payss\Plugin\Alipay\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Plugin\Alipay\Fund\TransCommonQueryPlugin;
-use Pengxul\Pays\Plugin\Alipay\Trade\FastRefundQueryPlugin;
-use Pengxul\Pays\Plugin\Alipay\Trade\QueryPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Plugin\Alipay\Fund\TransCommonQueryPlugin;
+use Pengxul\Payss\Plugin\Alipay\Trade\FastRefundQueryPlugin;
+use Pengxul\Payss\Plugin\Alipay\Trade\QueryPlugin;
 use Pengxul\Supports\Str;
 
 class QueryShortcut implements ShortcutInterface

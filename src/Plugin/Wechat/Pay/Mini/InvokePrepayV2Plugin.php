@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Pay\Mini;
+namespace Pengxul\Payss\Plugin\Wechat\Pay\Mini;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=7_7&index=5
  */
-class InvokePrepayV2Plugin extends \Pengxul\Pays\Plugin\Wechat\Pay\Common\InvokePrepayV2Plugin
+class InvokePrepayV2Plugin extends \Pengxul\Payss\Plugin\Wechat\Pay\Common\InvokePrepayV2Plugin
 {
     protected function getConfigKey(): string
     {

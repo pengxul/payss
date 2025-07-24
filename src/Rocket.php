@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\PayS;
+namespace Pengxul\Payss;
 
 use ArrayAccess;
 use JsonSerializable as JsonSerializableInterface;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\RequestInterface;
-use Pengxul\Pays\Contract\DirectionInterface;
-use Pengxul\Pays\Contract\PackerInterface;
+use Pengxul\Payss\Contract\DirectionInterface;
+use Pengxul\Payss\Contract\PackerInterface;
 use Pengxul\Supports\Collection;
 use Pengxul\Supports\Traits\Accessable;
 use Pengxul\Supports\Traits\Arrayable;

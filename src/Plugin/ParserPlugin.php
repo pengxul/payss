@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin;
+namespace Pengxul\Payss\Plugin;
 
 use Closure;
 use Psr\Http\Message\ResponseInterface;
-use Pengxul\Pays\Contract\DirectionInterface;
-use Pengxul\Pays\Contract\PackerInterface;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\DirectionInterface;
+use Pengxul\Payss\Contract\PackerInterface;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Rocket;
 
 class ParserPlugin implements PluginInterface
 {

@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat;
+namespace Pengxul\Payss\Plugin\Wechat;
 
 use Closure;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\InvalidResponseException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\InvalidResponseException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Rocket;
 use Pengxul\Supports\Collection;
 
-use function Pengxul\Pays\should_do_http_request;
-use function Pengxul\Pays\verify_wechat_sign;
+use function Pengxul\Payss\should_do_http_request;
+use function Pengxul\Payss\verify_wechat_sign;
 
 class LaunchPlugin implements PluginInterface
 {

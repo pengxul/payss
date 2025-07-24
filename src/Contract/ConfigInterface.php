@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Contract;
+namespace Pengxul\Payss\Contract;
 
 interface ConfigInterface
 {

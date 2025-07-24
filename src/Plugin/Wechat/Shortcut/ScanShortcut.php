@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Shortcut;
+namespace Pengxul\Payss\Plugin\Wechat\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Plugin\Wechat\Pay\Native\PrepayPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Plugin\Wechat\Pay\Native\PrepayPlugin;
 
 class ScanShortcut implements ShortcutInterface
 {

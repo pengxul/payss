@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay\QrCode;
+namespace Pengxul\Payss\Plugin\Unipay\QrCode;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_unipay_config;
+use function Pengxul\Payss\get_unipay_config;
 
 /**
  * @see https://open.unionpay.com/tjweb/acproduct/APIList?acpAPIId=792&apiservId=468&version=V2.2&bussType=0
  */
-class QueryPlugin extends \Pengxul\Pays\Plugin\Unipay\OnlineGateway\QueryPlugin
+class QueryPlugin extends \Pengxul\Payss\Plugin\Unipay\OnlineGateway\QueryPlugin
 {
     /**
      * @throws ContainerException

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Risk\Complaints;
+namespace Pengxul\Payss\Plugin\Wechat\Risk\Complaints;
 
-use Pengxul\Pays\Direction\OriginResponseDirection;
-use Pengxul\Pays\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Direction\OriginResponseDirection;
+use Pengxul\Payss\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter10_2_5.shtml

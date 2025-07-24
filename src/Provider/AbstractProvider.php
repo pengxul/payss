@@ -2,31 +2,31 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Provider;
+namespace Pengxul\Payss\Provider;
 
 use GuzzleHttp\Psr7\Utils;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\MessageInterface;
 use Throwable;
-use Pengxul\Pays\Contract\HttpClientInterface;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Contract\ProviderInterface;
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Direction\ArrayDirection;
-use Pengxul\Pays\Event;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\InvalidResponseException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\HttpClientInterface;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Contract\ProviderInterface;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Direction\ArrayDirection;
+use Pengxul\Payss\Event;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\InvalidResponseException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Rocket;
 use Pengxul\Supports\Collection;
 use Pengxul\Supports\Pipeline;
 
-use function Pengxul\Pays\should_do_http_request;
+use function Pengxul\Payss\should_do_http_request;
 
 abstract class AbstractProvider implements ProviderInterface
 {

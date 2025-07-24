@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat;
+namespace Pengxul\Payss\Plugin\Wechat;
 
 use Closure;
 use Psr\Http\Message\RequestInterface;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Request;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Request;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_wechat_base_uri;
-use function Pengxul\Pays\get_wechat_config;
+use function Pengxul\Payss\get_wechat_base_uri;
+use function Pengxul\Payss\get_wechat_config;
 
 abstract class GeneralPlugin implements PluginInterface
 {

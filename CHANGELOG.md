@@ -39,7 +39,7 @@
 - change: 所有的 `Find*Plugin` 调整为 `Query*Plugin`(#756)
 - change: 插件开始装载日志由 `info` 调整为 `debug`(#755)
 - change: ParserInterface 签名由 `?ResponseInterface $response` 变更为 `PackerInterface $packer, ?ResponseInterface $response`(#754)
-- change: \Pengxul\Pays\Plugin\Wechat\RadarSignPlugin 增加 `__construct(JsonPacker $jsonPacker, XmlPacker $xmlPacker)` 方法(#753)
+- change: \Pengxul\Payss\Plugin\Wechat\RadarSignPlugin 增加 `__construct(JsonPacker $jsonPacker, XmlPacker $xmlPacker)` 方法(#753)
 - change: 所有 `Parser` 更名为 `Direction`(#770, #774)
 - change: '_type' 类型统一定义为渠道id，如: 小程序id，公众号id等；增加 '_action' 为操作类型用于 shortcut(#781)
 - change: 默认 container 由 `php-di/php-di` 改为 `hyperf/pimple`(#786)
@@ -236,7 +236,7 @@
 ### dependency
 
 - delete: 移除 `php-di/php-di` 依赖。如果您使用的框架非 `hyperf`, `laravel` 或 没有指定 `ContainerInterface`，仍需手动安装 `composer require php-di/php-di`
-- delete: 移除 `guzzlehttp/guzzle` 依赖。如果没有指定 `\Pengxul\Pays\Contract\HttpClientInterface` 仍需手动安装 `composer require guzzlehttp/guzzle`
+- delete: 移除 `guzzlehttp/guzzle` 依赖。如果没有指定 `\Pengxul\Payss\Contract\HttpClientInterface` 仍需手动安装 `composer require guzzlehttp/guzzle`
 - upgrade: 升级 `yansongda/supports` 到 `~v3.2.0`
 - upgrade: 升级 `php` 最低版本到 `7.4.0`
 

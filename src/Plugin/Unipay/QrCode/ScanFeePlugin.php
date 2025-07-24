@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay\QrCode;
+namespace Pengxul\Payss\Plugin\Unipay\QrCode;
 
-use Pengxul\Pays\Plugin\Unipay\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Plugin\Unipay\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
 /**
  * @see https://open.unionpay.com/tjweb/acproduct/APIList?acpAPIId=796&apiservId=468&version=V2.2&bussType=0

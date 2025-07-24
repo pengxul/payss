@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Event;
+namespace Pengxul\Payss\Event;
 
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Rocket;
 
 class MethodCalled extends Event
 {

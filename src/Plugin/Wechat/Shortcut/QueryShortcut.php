@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Shortcut;
+namespace Pengxul\Payss\Plugin\Wechat\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Plugin\Wechat\Pay\Common\QueryPlugin;
-use Pengxul\Pays\Plugin\Wechat\Pay\Common\QueryRefundPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Plugin\Wechat\Pay\Common\QueryPlugin;
+use Pengxul\Payss\Plugin\Wechat\Pay\Common\QueryRefundPlugin;
 use Pengxul\Supports\Str;
 
 class QueryShortcut implements ShortcutInterface
@@ -48,7 +48,7 @@ class QueryShortcut implements ShortcutInterface
     protected function combinePlugins(): array
     {
         return [
-            \Pengxul\Pays\Plugin\Wechat\Pay\Combine\QueryPlugin::class,
+            \Pengxul\Payss\Plugin\Wechat\Pay\Combine\QueryPlugin::class,
         ];
     }
 }

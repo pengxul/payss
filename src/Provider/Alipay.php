@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Provider;
+namespace Pengxul\Payss\Provider;
 
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Pengxul\Pays\Event;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Plugin\Alipay\CallbackPlugin;
-use Pengxul\Pays\Plugin\Alipay\LaunchPlugin;
-use Pengxul\Pays\Plugin\Alipay\PreparePlugin;
-use Pengxul\Pays\Plugin\Alipay\RadarSignPlugin;
-use Pengxul\Pays\Plugin\ParserPlugin;
+use Pengxul\Payss\Event;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Plugin\Alipay\CallbackPlugin;
+use Pengxul\Payss\Plugin\Alipay\LaunchPlugin;
+use Pengxul\Payss\Plugin\Alipay\PreparePlugin;
+use Pengxul\Payss\Plugin\Alipay\RadarSignPlugin;
+use Pengxul\Payss\Plugin\ParserPlugin;
 use Pengxul\Supports\Collection;
 use Pengxul\Supports\Str;
 

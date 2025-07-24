@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay\Shortcut;
+namespace Pengxul\Payss\Plugin\Unipay\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Plugin\Unipay\HtmlResponsePlugin;
-use Pengxul\Pays\Plugin\Unipay\OnlineGateway\WapPayPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Plugin\Unipay\HtmlResponsePlugin;
+use Pengxul\Payss\Plugin\Unipay\OnlineGateway\WapPayPlugin;
 
 class WapShortcut implements ShortcutInterface
 {

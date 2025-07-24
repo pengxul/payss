@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Risk\Complaints;
+namespace Pengxul\Payss\Plugin\Wechat\Risk\Complaints;
 
-use Pengxul\Pays\Direction\OriginResponseDirection;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Direction\OriginResponseDirection;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter10_2_18.shtml

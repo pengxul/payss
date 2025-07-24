@@ -99,7 +99,7 @@ composer require yansongda/pay:~3.3.0 -vvv
 
 namespace App\Http\Controllers;
 
-use Pengxul\Pays\Pay;
+use Pengxul\Payss\Pay;
 
 class AlipayController
 {
@@ -188,7 +188,7 @@ class AlipayController
 
 namespace App\Http\Controllers;
 
-use Pengxul\Pays\Pay;
+use Pengxul\Payss\Pay;
 
 class WechatController
 {

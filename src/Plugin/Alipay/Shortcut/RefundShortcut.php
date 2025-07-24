@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay\Shortcut;
+namespace Pengxul\Payss\Plugin\Alipay\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Plugin\Alipay\Trade\RefundPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Plugin\Alipay\Trade\RefundPlugin;
 
 class RefundShortcut implements ShortcutInterface
 {

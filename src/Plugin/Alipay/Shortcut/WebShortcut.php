@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay\Shortcut;
+namespace Pengxul\Payss\Plugin\Alipay\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Plugin\Alipay\HtmlResponsePlugin;
-use Pengxul\Pays\Plugin\Alipay\Trade\PagePayPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Plugin\Alipay\HtmlResponsePlugin;
+use Pengxul\Payss\Plugin\Alipay\Trade\PagePayPlugin;
 
 class WebShortcut implements ShortcutInterface
 {

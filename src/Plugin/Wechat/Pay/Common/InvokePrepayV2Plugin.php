@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Pay\Common;
+namespace Pengxul\Payss\Plugin\Wechat\Pay\Common;
 
 use Exception;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Rocket;
 use Pengxul\Supports\Config;
 use Pengxul\Supports\Str;
 
-use function Pengxul\Pays\get_wechat_sign_v2;
+use function Pengxul\Payss\get_wechat_sign_v2;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_7&index=6

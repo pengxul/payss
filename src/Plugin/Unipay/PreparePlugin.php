@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay;
+namespace Pengxul\Payss\Plugin\Unipay;
 
 use Closure;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Rocket;
-use Pengxul\Pays\Traits\GetUnipayCerts;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Rocket;
+use Pengxul\Payss\Traits\GetUnipayCerts;
 use Pengxul\Supports\Str;
 
-use function Pengxul\Pays\get_tenant;
-use function Pengxul\Pays\get_unipay_config;
+use function Pengxul\Payss\get_tenant;
+use function Pengxul\Payss\get_unipay_config;
 
 class PreparePlugin implements PluginInterface
 {

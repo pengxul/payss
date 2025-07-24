@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat;
+namespace Pengxul\Payss\Plugin\Wechat;
 
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Rocket;
 
 class WechatPublicCertsPlugin extends GeneralPlugin
 {

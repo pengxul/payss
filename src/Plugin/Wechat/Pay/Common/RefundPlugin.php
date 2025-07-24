@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Pay\Common;
+namespace Pengxul\Payss\Plugin\Wechat\Pay\Common;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_wechat_config;
+use function Pengxul\Payss\get_wechat_config;
 
 class RefundPlugin extends GeneralPlugin
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay;
+namespace Pengxul\Payss\Plugin\Alipay;
 
 use Closure;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Rocket;
 
 abstract class GeneralPlugin implements PluginInterface
 {

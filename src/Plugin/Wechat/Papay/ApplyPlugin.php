@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Papay;
+namespace Pengxul\Payss\Plugin\Wechat\Papay;
 
-use Pengxul\Pays\Plugin\Wechat\GeneralV2Plugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Plugin\Wechat\GeneralV2Plugin;
+use Pengxul\Payss\Rocket;
 
 /**
  * 申请代扣.

@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay;
+namespace Pengxul\Payss\Plugin\Alipay;
 
 use Closure;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Provider\Alipay;
-use Pengxul\Pays\Request;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Provider\Alipay;
+use Pengxul\Payss\Request;
+use Pengxul\Payss\Rocket;
 use Pengxul\Supports\Collection;
 use Pengxul\Supports\Str;
 
-use function Pengxul\Pays\get_alipay_config;
-use function Pengxul\Pays\get_private_cert;
+use function Pengxul\Payss\get_alipay_config;
+use function Pengxul\Payss\get_private_cert;
 
 class RadarSignPlugin implements PluginInterface
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Event;
+namespace Pengxul\Payss\Event;
 
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Rocket;
 
 class PayStarted extends Event
 {

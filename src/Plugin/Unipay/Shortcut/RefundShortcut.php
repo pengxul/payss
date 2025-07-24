@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay\Shortcut;
+namespace Pengxul\Payss\Plugin\Unipay\Shortcut;
 
-use Pengxul\Pays\Contract\ShortcutInterface;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Plugin\Unipay\OnlineGateway\RefundPlugin;
+use Pengxul\Payss\Contract\ShortcutInterface;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Plugin\Unipay\OnlineGateway\RefundPlugin;
 use Pengxul\Supports\Str;
 
 class RefundShortcut implements ShortcutInterface
@@ -36,7 +36,7 @@ class RefundShortcut implements ShortcutInterface
     protected function qrCodePlugins(): array
     {
         return [
-            \Pengxul\Pays\Plugin\Unipay\QrCode\RefundPlugin::class,
+            \Pengxul\Payss\Plugin\Unipay\QrCode\RefundPlugin::class,
         ];
     }
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Packer;
+namespace Pengxul\Payss\Packer;
 
-use Pengxul\Pays\Contract\PackerInterface;
+use Pengxul\Payss\Contract\PackerInterface;
 use Pengxul\Supports\Str;
 
 class QueryPacker implements PackerInterface

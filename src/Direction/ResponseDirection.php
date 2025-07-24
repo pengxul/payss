@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Direction;
+namespace Pengxul\Payss\Direction;
 
 class ResponseDirection extends NoHttpRequestDirection
 {

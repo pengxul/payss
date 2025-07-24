@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Traits;
+namespace Pengxul\Payss\Traits;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\InvalidResponseException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\InvalidResponseException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
 
-use function Pengxul\Pays\get_wechat_config;
-use function Pengxul\Pays\reload_wechat_public_certs;
+use function Pengxul\Payss\get_wechat_config;
+use function Pengxul\Payss\reload_wechat_public_certs;
 
 trait HasWechatEncryption
 {

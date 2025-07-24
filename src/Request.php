@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\PayS;
+namespace Pengxul\Payss;
 
 use JsonSerializable as JsonSerializableInterface;
 use Pengxul\Supports\Traits\Accessable;

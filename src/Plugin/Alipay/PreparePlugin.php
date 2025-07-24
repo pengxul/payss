@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay;
+namespace Pengxul\Payss\Plugin\Alipay;
 
 use Closure;
-use Pengxul\Pays\Contract\ConfigInterface;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\ConfigInterface;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_alipay_config;
-use function Pengxul\Pays\get_tenant;
+use function Pengxul\Payss\get_alipay_config;
+use function Pengxul\Payss\get_tenant;
 
 class PreparePlugin implements PluginInterface
 {

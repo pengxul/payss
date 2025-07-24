@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Direction;
+namespace Pengxul\Payss\Direction;
 
 use Psr\Http\Message\ResponseInterface;
-use Pengxul\Pays\Contract\DirectionInterface;
-use Pengxul\Pays\Contract\PackerInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
+use Pengxul\Payss\Contract\DirectionInterface;
+use Pengxul\Payss\Contract\PackerInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
 use Pengxul\Supports\Collection;
 
 class CollectionDirection implements DirectionInterface

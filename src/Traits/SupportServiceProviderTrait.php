@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Traits;
+namespace Pengxul\Payss\Traits;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_alipay_config;
+use function Pengxul\Payss\get_alipay_config;
 
 trait SupportServiceProviderTrait
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Direction;
+namespace Pengxul\Payss\Direction;
 
 use Psr\Http\Message\ResponseInterface;
-use Pengxul\Pays\Contract\DirectionInterface;
-use Pengxul\Pays\Contract\PackerInterface;
+use Pengxul\Payss\Contract\DirectionInterface;
+use Pengxul\Payss\Contract\PackerInterface;
 
 class NoHttpRequestDirection implements DirectionInterface
 {

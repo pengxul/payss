@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Pay\Pos;
+namespace Pengxul\Payss\Plugin\Wechat\Pay\Pos;
 
-use Pengxul\Pays\Plugin\Wechat\GeneralV2Plugin;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Plugin\Wechat\GeneralV2Plugin;
+use Pengxul\Payss\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/api/micropay.php?chapter=9_10&index=1

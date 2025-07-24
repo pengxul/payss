@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\PayS;
+namespace Pengxul\Payss;
 
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Pengxul\Pays\Contract\ConfigInterface;
-use Pengxul\Pays\Direction\NoHttpRequestDirection;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\Exception;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\InvalidResponseException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Plugin\ParserPlugin;
-use Pengxul\Pays\Plugin\Wechat\PreparePlugin;
-use Pengxul\Pays\Plugin\Wechat\RadarSignPlugin;
-use Pengxul\Pays\Plugin\Wechat\WechatPublicCertsPlugin;
-use Pengxul\Pays\Provider\Wechat;
+use Pengxul\Payss\Contract\ConfigInterface;
+use Pengxul\Payss\Direction\NoHttpRequestDirection;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\Exception;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\InvalidResponseException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Plugin\ParserPlugin;
+use Pengxul\Payss\Plugin\Wechat\PreparePlugin;
+use Pengxul\Payss\Plugin\Wechat\RadarSignPlugin;
+use Pengxul\Payss\Plugin\Wechat\WechatPublicCertsPlugin;
+use Pengxul\Payss\Provider\Wechat;
 use Pengxul\Supports\Str;
 
 if (!function_exists('should_do_http_request')) {

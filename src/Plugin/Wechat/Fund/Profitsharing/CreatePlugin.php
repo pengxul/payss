@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Fund\Profitsharing;
+namespace Pengxul\Payss\Plugin\Wechat\Fund\Profitsharing;
 
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\InvalidConfigException;
-use Pengxul\Pays\Exception\InvalidParamsException;
-use Pengxul\Pays\Exception\InvalidResponseException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pays\Rocket;
-use Pengxul\Pays\Traits\HasWechatEncryption;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\InvalidConfigException;
+use Pengxul\Payss\Exception\InvalidParamsException;
+use Pengxul\Payss\Exception\InvalidResponseException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payss\Rocket;
+use Pengxul\Payss\Traits\HasWechatEncryption;
 use Pengxul\Supports\Collection;
 
-use function Pengxul\Pays\encrypt_wechat_contents;
-use function Pengxul\Pays\get_wechat_config;
+use function Pengxul\Payss\encrypt_wechat_contents;
+use function Pengxul\Payss\get_wechat_config;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter8_1_1.shtml

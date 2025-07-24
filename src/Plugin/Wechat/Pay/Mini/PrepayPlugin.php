@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Wechat\Pay\Mini;
+namespace Pengxul\Payss\Plugin\Wechat\Pay\Mini;
 
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_5_1.shtml
  */
-class PrepayPlugin extends \Pengxul\Pays\Plugin\Wechat\Pay\Common\PrepayPlugin
+class PrepayPlugin extends \Pengxul\Payss\Plugin\Wechat\Pay\Common\PrepayPlugin
 {
     protected function getWechatId(array $config, Rocket $rocket): array
     {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Alipay;
+namespace Pengxul\Payss\Plugin\Alipay;
 
 use Closure;
 use GuzzleHttp\Psr7\Response;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Rocket;
 use Pengxul\Supports\Collection;
 
 class HtmlResponsePlugin implements PluginInterface

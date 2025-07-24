@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pays\Plugin\Unipay;
+namespace Pengxul\Payss\Plugin\Unipay;
 
 use Closure;
 use Psr\Http\Message\RequestInterface;
-use Pengxul\Pays\Contract\PluginInterface;
-use Pengxul\Pays\Exception\ContainerException;
-use Pengxul\Pays\Exception\ServiceNotFoundException;
-use Pengxul\Pays\Logger;
-use Pengxul\Pays\Pay;
-use Pengxul\Pays\Provider\Unipay;
-use Pengxul\Pays\Request;
-use Pengxul\Pays\Rocket;
+use Pengxul\Payss\Contract\PluginInterface;
+use Pengxul\Payss\Exception\ContainerException;
+use Pengxul\Payss\Exception\ServiceNotFoundException;
+use Pengxul\Payss\Logger;
+use Pengxul\Payss\Pay;
+use Pengxul\Payss\Provider\Unipay;
+use Pengxul\Payss\Request;
+use Pengxul\Payss\Rocket;
 
-use function Pengxul\Pays\get_unipay_config;
+use function Pengxul\Payss\get_unipay_config;
 
 abstract class GeneralPlugin implements PluginInterface
 {
